@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body{
+        background-color: #f5f7f9;
+        font-family: Open Sans,sans-serif;
+      }
+
+      .box{
+        width: 30%;
+        float: left;
+        margin: 10px 10px;
+        padding: 15px;
+        border: 2px solid #e2e2e2;
+        padding: 10px;
+        border-radius: 0;
+      }
+      .box h4{
+        margin-bottom: 0;
+
+      }
+      .box ul{
+        font-size: 15px;
+        line-height: 28px;
+        height: 260px;
+        overflow: hidden;
+        list-style-type: none;
+        padding-left: 0;
+        height: 260px;
+      }
+
+      hr{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 2;
+        border-top: 1px solid #eee;
+        margin: 25px;
+      }
+
+      }
+
+      .box a{
+        color: #3682bf;
+        text-decoration: none;
+      }
+      .box a:hover{
+        background-color: #4076A3;
+        color: #fff;
+      }
+
+      .box.showContent ul{
+        height: auto;
+      }
+
+      #title-contract-woning{
+        font-weight: normal;
+        font-size: 17px;
+      }
+
+      .tables{
+        font-size: 14px;
+      }
+
+      .main-span{
+        border-radius-botton: 2px solid red;
+      }
+
+      .left-span{
+        padding-left: 20px;
+
+      }
+
+      .contract-opzeggen-btn{
+        float: right;
+        border: solid 1px #4076A3;
+        border-radius: 2px;
+        padding: 5px 15px;
+        color: #4076A3;
+        margin-bottom: 15px;
+        text-decoration: none;
+      }
+
+    </style>
+  </head>
+  <body>
+
+  <div class="box">
+    <h4 id="title-contract-woning">Contract & Woning</h4>
+      <div class="row">
+        <ul style="margin-left: 15px; margin-right: 15px; margin-bottom: 10px; list-style-type: none;">
+
+          <li>
+            <div class="col-sm-4 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px; padding-right: 5px;">Straat</div>
+            <div class="col-sm-8 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px;"><b>Wibaustraat 23</b></div>
+          </li>
+
+          <li>
+            <div class="col-sm-4 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px; padding-right: 5px;">Plaats</div>
+            <div class="col-sm-8 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px;"><b>1505 CA ZAANDAM</b></div>
+          </li>
+
+          <li>
+            <div class="col-sm-4 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px; padding-right: 5px;">Huurnprijs</div>
+            <div class="col-sm-8 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px;"><b>594.80</b></div>
+          </li>
+
+          <li>
+            <div class="col-sm-4 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px; padding-right: 5px;">Energielabel</div>
+            <div class="col-sm-8 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px;"> <img src="icon.png" alt="" style="width: 40px"> </div>
+          </li>
+
+          <li>
+            <div class="col-sm-4 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px; padding-right: 5px;">Primair contact</div>
+            <div class="col-sm-8 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px;"><b>Merv. T. Karakas</b></div>
+          </li>
+
+          <li>
+            <div class="col-sm-4 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px; padding-right: 5px;">Bestemming</div>
+            <div class="col-sm-8 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px;"><b>Verhuus</b></div>
+          </li>
+
+          <li>
+            <div class="col-sm-4 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px; padding-right: 5px;">Oppervlak</div>
+            <div class="col-sm-8 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px;"><b>66,50m2</b></div>
+          </li>
+
+          <li>
+            <div class="col-sm-4 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px; padding-right: 5px;">Type woning</div>
+            <div class="col-sm-8 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px;"><b>3 kamer(s) Woonruimte</b></div>
+          </li>
+
+          <li>
+            <div class="col-sm-4 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px; padding-right: 5px;">Ingangsdatum</div>
+            <div class="col-sm-8 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px;"><b>5 September 2001</b></div>
+          </li>
+
+          <li>
+            <div class="col-sm-4 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px; padding-right: 5px;">Einddatum</div>
+            <div class="col-sm-8 tables" style="border-bottom: solid #e2e2e2 1px; padding-top: 10px; padding-bottom: 10px;"><b>Onbekend</b></div>
+          </li>
+
+        </ul>
+      </div>
+
+      <a href="javascript:void();" class="readmore-btn">Meer laden</a> <a href="javascript:void();" class="contract-opzeggen-btn">Contract opzeggen</a>
+
+    </div>
+
+
+
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(".readmore-btn").on('click', function(){
+        $(this).parent().toggleClass("showContent");
+
+        // Shorthand if-else statement
+        var replaceText = $(this).parent().hasClass("showContent") ? "Minder" : "Meer laden";
+        $(this).text(replaceText);
+
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  </body>
+</html>
